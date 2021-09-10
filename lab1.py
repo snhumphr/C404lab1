@@ -5,7 +5,7 @@ import requests
 
 def run():
     
-    result = requests.get("http://www.google.com")
+    result = requests.get("https://raw.githubusercontent.com/snhumphr/C404lab1/main/lab1.py")
     print(result.text)
 
 
